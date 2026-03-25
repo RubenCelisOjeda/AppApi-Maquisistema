@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NLog.Web.AspNetCore" Version="6.1.2" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ApiProduct.Infraestructura\ApiProduct.Infraestructura.csproj" />
+    <ProjectReference Include="..\ApiProduct.Shared.AutoMapper\ApiProduct.Shared.AutoMapper.csproj" />
+    <ProjectReference Include="..\ApiTest.Application\ApiProduct.Application.csproj" />
+    <ProjectReference Include="..\ApiTest.Domain\ApiProduct.Domain.csproj" />
+    <ProjectReference Include="..\ApiTest.Transversal\ApiProduct.Shared.csproj" />
+  </ItemGroup>
+
+</Project>
