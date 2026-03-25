@@ -2,8 +2,8 @@
 
 ## Descripción
 
-API REST desarrollada en .NET 8 para la gestión de productos. Permite registrar, actualizar y consultar productos por ID.
-El proyecto está enfocado en buenas prácticas de desarrollo, separación de responsabilidades y código mantenible.
+API REST en .NET 8 para la gestión de productos. Permite registrar, actualizar y consultar productos por ID.
+El proyecto tiene buenas prácticas de desarrollo, separación de responsabilidades y código mantenible.
 
 ---
 
