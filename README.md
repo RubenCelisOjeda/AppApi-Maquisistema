@@ -1,9 +1,14 @@
 # API Product
 
-## Descripción
+## Descripción``
 
-API REST en .NET 8 para la gestión de productos. Permite registrar, actualizar y consultar productos por ID.
+
+API REST en .NET 8 para la gestión de productos. Permite registrar, actualizar y consultar productos por ID.  
+
+**La base de datos es en memoria** (InMemoryDatabase) y se ha agregado **un cache en memoria de 5 minutos** para mejorar el rendimiento al consultar productos.  
+
 El proyecto tiene buenas prácticas de desarrollo, separación de responsabilidades y código mantenible.
+
 
 ---
 
@@ -65,13 +70,6 @@ Los logs se almacenan en archivos de texto mediante **NLog**, separando los logs
 
 1. Clonar el repositorio
 2. Abrir la solución en Visual Studio
-3. Configurar la cadena de conexión en `appsettings.json`
-
-```json
-"ConnectionStrings": {
-  "DefaultConnection": "Server=.;Database=ApiProductDB;Trusted_Connection=True;"
-}
-```
 
 4. Ejecutar el proyecto (F5 o Run)
 
