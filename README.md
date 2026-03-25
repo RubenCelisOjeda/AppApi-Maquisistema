@@ -16,6 +16,9 @@ Se implementa una estructura basada en **Clean Architecture**, separando el proy
 * **Infrastructure**: acceso a datos (repositorios, conexión a BD)
 * **API**: controllers y endpoints
 
+  <img width="550" height="318" alt="imagen" src="https://github.com/user-attachments/assets/7167636e-d720-469b-9ab8-ef0d1296c976" />
+
+
 ---
 
 ## Patrones y buenas prácticas
@@ -72,7 +75,6 @@ https://localhost:<puerto>/swagger
 ---
 
 ## Pruebas
-
 Se implementan pruebas unitarias enfocadas en la capa de servicios utilizando xUnit y Moq.
 
 --
