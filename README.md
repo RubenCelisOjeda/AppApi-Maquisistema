@@ -16,8 +16,7 @@ Se implementa una estructura basada en **Clean Architecture**, separando el proy
 * **Infrastructure**: acceso a datos (repositorios, conexión a BD)
 * **API**: controllers y endpoints
 
-  <img width="550" height="318" alt="imagen" src="https://github.com/user-attachments/assets/7167636e-d720-469b-9ab8-ef0d1296c976" />
-
+<img width="550" height="318" alt="imagen" src="https://github.com/user-attachments/assets/7167636e-d720-469b-9ab8-ef0d1296c976" />
 
 ---
 
@@ -30,6 +29,15 @@ Se implementa una estructura basada en **Clean Architecture**, separando el proy
 * Principios SOLID
 * Validación de modelos (DataAnnotations)
 * Manejo de HTTP Status Codes
+* Middleware para logging de tiempo de respuesta
+
+---
+
+## Logging
+
+Se implementa un **middleware personalizado** que registra el tiempo de respuesta de cada request (método, endpoint, status y duración).
+
+Los logs se almacenan en archivos de texto mediante **NLog**, separando los logs de aplicación y los tiempos de respuesta.
 
 ---
 
@@ -41,6 +49,7 @@ Se implementa una estructura basada en **Clean Architecture**, separando el proy
 * SQL Server
 * xUnit (pruebas unitarias)
 * Moq (mocking)
+* NLog
 
 ---
 
@@ -75,6 +84,5 @@ https://localhost:<puerto>/swagger
 ---
 
 ## Pruebas
-Se implementan pruebas unitarias enfocadas en la capa de servicios utilizando xUnit y Moq.
 
---
+Se implementan pruebas unitarias enfocadas en la capa de servicios utilizando xUnit y Moq.
