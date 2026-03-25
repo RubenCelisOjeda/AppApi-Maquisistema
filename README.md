@@ -1,6 +1,6 @@
 # API Product
 
-## Descripción``
+## Descripción
 
 
 API REST en .NET 8 para la gestión de productos. Permite registrar, actualizar y consultar productos por ID.  
